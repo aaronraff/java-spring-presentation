@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 @RequestMapping(path="/users")
 public class CRUDController {
-    // Automatically gets the bean from the Spring IoC
+    // Automatically gets the bean from the Spring Container
     @Autowired
     private UserRepository userRepository;
 
